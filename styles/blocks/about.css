@@ -69,30 +69,30 @@
   margin-top: 20px;
 }
 
-@media (width < 1460px) and (width > 768px) {
+@media (max-width: 1440px) and (min-width: 768px) {
   .about {
     padding-right: 20px;
   }
 
   .about__features {
-    gap: calc(40px + (70 - 40) * ((100vw - 768px) / (1460 - 768)));
+    gap: calc(40px + (70 - 40) * ((100vw - 768px) / (1440 - 768)));
   }
 
   .about__content {
-    gap: calc(40px + (118 - 40) * ((100vw - 768px) / (1460 - 768)));
+    gap: calc(40px + (118 - 40) * ((100vw - 768px) / (1440 - 768)));
   }
 
   .about__description {
-    font-size: calc(24px + (36 - 24) * ((100vw - 768px) / (1460 - 768)));
+    font-size: calc(24px + (36 - 24) * ((100vw - 768px) / (1440 - 768)));
   }
 
   .about__feature-description {
-    font-size: calc(16px + (24 - 16) * ((100vw - 768px) / (1460 - 768)));
+    font-size: calc(16px + (24 - 16) * ((100vw - 768px) / (1440 - 768)));
   }
 
   .about__highlight::before {
-    width: calc(235px + (353.4 - 235) * ((100vw - 768px) / (1460 - 768)));
-    height: calc(20px + (34.4 - 20) * ((100vw - 768px) / (1460 - 768)));
+    width: calc(235px + (353.4 - 235) * ((100vw - 768px) / (1440 - 768)));
+    height: calc(20px + (34.4 - 20) * ((100vw - 768px) / (1440 - 768)));
   }
 
   .about__image-wrap {
