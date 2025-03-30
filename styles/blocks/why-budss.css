@@ -1,0 +1,49 @@
+.why-budss {
+  padding: 0 16px;
+}
+
+.why-budss__title {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.why-budss__subtitle {
+  font: var(--S1_SemiBold_36);
+  text-align: center;
+  max-width: 664px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.why-budss__subtitle-highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.why-budss__subtitle-highlight::before {
+  content: 'To Grow Your Business';
+  position: absolute;
+  color: rgba(0, 0, 0, 0);
+  z-index: -10;
+  background-color: var(--primary-2);
+  position: absolute;
+  border-radius: 30px;
+  width: 110%;
+  height: 70%;
+  left: -5%;
+  top: 20%;
+  transform: rotate(-1.69deg);
+}
+
+@media (width < 1460px) and (width > 768px) {
+  .why-budss__subtitle {
+    font-size: calc(24px + (36 - 24) * ((100vw - 768px) / (1460 - 768)));
+  }
+}
+
+@media (max-width: 768px) {
+  .why-budss__subtitle {
+    font: var(--S2_SemiBold_24);
+  }
+}
