@@ -25,9 +25,9 @@
   display: block;
 }
 
-@media (width < 1460px) and (width > 768px) {
+@media (max-width: 1440px) and (min-width: 768px) {
   .profit__subtitle {
-    font-size: calc(20px + (24 - 20) * ((100vw - 768px) / (1460 - 768)));
+    font-size: calc(20px + (24 - 20) * ((100vw - 768px) / (1440 - 768)));
   }
 }
 

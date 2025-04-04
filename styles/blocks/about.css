@@ -17,6 +17,7 @@
 .about__description {
   font: var(--S1_SemiBold_36);
   max-width: 410px;
+  text-wrap: balance;
 }
 
 .about__highlight {
@@ -25,16 +26,17 @@
 }
 
 .about__highlight::before {
-  content: '';
+  content: 'network of shoppers';
   position: absolute;
-  top: 11px;
-  right: -13px;
-  width: 353.4px;
-  height: 34.4px;
+  color: rgba(0, 0, 0, 0);
   background: var(--primary-2);
+  z-index: -10;
+  width: 105%;
+  height: 70%;
   border-radius: 30px;
+  left: -2.5%;
+  top: 23%;
   transform: rotate(-1.69deg);
-  z-index: -1;
 }
 
 .about__image-wrap {
@@ -88,11 +90,6 @@
 
   .about__feature-description {
     font-size: calc(16px + (24 - 16) * ((100vw - 768px) / (1440 - 768)));
-  }
-
-  .about__highlight::before {
-    width: calc(235px + (353.4 - 235) * ((100vw - 768px) / (1440 - 768)));
-    height: calc(20px + (34.4 - 20) * ((100vw - 768px) / (1440 - 768)));
   }
 
   .about__image-wrap {

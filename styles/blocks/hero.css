@@ -12,7 +12,7 @@
 
 .hero_line-break {
   display: block;
-  white-space: nowrap;
+  text-wrap: nowrap;
 }
 
 .hero__subtitle {
@@ -24,12 +24,13 @@
 
 .hero__image-wrap {
   padding-top: 62px;
-  display: flex;
+  max-width: 595px;
 }
 
 .hero__image {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 @media (max-width: 1440px) and (min-width: 768px) {
@@ -60,7 +61,7 @@
 
   .hero_line-break {
     display: block;
-    white-space: normal;
+    text-wrap: normal;
   }
 
   .hero__subtitle {

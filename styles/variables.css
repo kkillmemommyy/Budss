@@ -5,6 +5,8 @@
   --grayscale-0: #000000;
   --grayscale-1: #181818;
   --grayscale-2: #444444;
+  --grayscale-4: #cfcfcf;
+  --grayscale-6: #f5f5f5;
   --grayscale-7: #ffffff;
 
   --primary-0: #7b31d4;
@@ -29,6 +31,7 @@
   --T2_Bold_96: 700 96px / 106% 'Outfit';
   --T3_Bold_64: 700 64px / 106% 'Outfit';
   --T4_Bold_48: 700 48px / 106% 'Outfit';
+  --T5_SemiBold_48: 600 48px 'Outfit';
   --T6_Bold_40: 700 40px / 106% 'Outfit';
   --T7_Bold_32: 700 32px / 106% 'Outfit';
 }
