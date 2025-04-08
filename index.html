@@ -28,8 +28,8 @@
             <button class="btn header__btn">
               <span>Contact sales</span>
             </button>
-            <button class="header__btn-burger">
-              <img src="./assets/imgs/Burger.svg" alt="menu burger" />
+            <button class="header__btn-burger" aria-label="open burger menu">
+              <img src="./assets/imgs/Burger.svg" alt="" aria-hidden="true" />
             </button>
           </div>
         </div>
@@ -46,7 +46,7 @@
             <button class="btn hero__btn">Contact sales</button>
           </div>
           <div class="hero__image-wrap">
-            <img class="hero__image" src="./assets/imgs/hero-girl.png" alt="girl image" />
+            <img class="hero__image" src="./assets/imgs/hero-girl.png" alt="" aria-hidden="true" />
           </div>
         </section>
 
@@ -204,9 +204,9 @@
             We Provide Advanced Payment Solutions
             <span class="why-budss__subtitle-highlight">To Grow Your Business</span>
           </p>
-          <div class="why-budss__cards">
-            <div class="why-budss__cards-top">
-              <div class="why-budss__card">
+          <div class="why-budss__cards-wrpa">
+            <div class="why-budss__cards-line-wrap why-budss__cards-line-top">
+              <div class="why-budss__card why-budss__card-1">
                 <div class="why-budss__card-content-wrap">
                   <div class="why-budss__card-content">
                     <h5 class="why-budss__card-title">Turn your customers into loyal influencers</h5>
@@ -221,7 +221,7 @@
                   <img class="why-budss__card-image-mobile" src="./assets/imgs/why-budss-1-mobile.png" alt="" />
                 </div>
               </div>
-              <div class="why-budss__card">
+              <div class="why-budss__card why-budss__card-2">
                 <div class="why-budss__card-content">
                   <h5 class="why-budss__card-title">Harness the power of buying in bulk</h5>
                   <p class="why-budss__card-subtitle">
@@ -232,6 +232,34 @@
                 <img class="img1" src="./assets/imgs/why-budss-2_1.png" alt="" />
                 <img class="img2" src="./assets/imgs/why-budss-2_2.png" alt="" />
                 <img class="img3" src="./assets/imgs/why-budss-2_3.png" alt="" />
+              </div>
+            </div>
+
+            <div class="why-budss__cards-line-wrap why-budss__cards-line-bottom">
+              <div class="why-budss__card why-budss__card-3">
+                <div class="why-budss__card-content">
+                  <h5 class="why-budss__card-title">Supercharge Loyalty With Instant Cash Back</h5>
+                  <p class="why-budss__card-subtitle">
+                    Budss allows for shoppers to earn immediate cash back at their favorite stores.
+                  </p>
+                </div>
+                <div class="why-budss__card-image-wrap">
+                  <img class="why-budss__card-image" src="./assets/imgs/why-budss-3.png" alt="" />
+                </div>
+              </div>
+              <div class="why-budss__card why-budss__card-4">
+                <div class="why-budss__card-content-wrap">
+                  <div class="why-budss__card-content">
+                    <h5 class="why-budss__card-title">Seasoned with AI and Gamification</h5>
+                    <p class="why-budss__card-subtitle">
+                      AI programming creates a personalized customer journey, offering recommendations for their next
+                      purchase and optimizing rewards for after purchase.
+                    </p>
+                  </div>
+                </div>
+                <div class="why-budss__card-image-wrap">
+                  <img class="why-budss__card-image" src="./assets/imgs/why-budss-4.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -272,8 +300,69 @@
               </div>
             </div>
           </section>
+
+          <!-- companies -->
+          <section class="companies container">
+            <img class="companies__icon-woo-commerce" src="./assets/imgs/woo-commerce.svg" alt="" />
+            <img class="companies__icon-shopify" src="./assets/imgs/shopify.svg" alt="" />
+            <img class="companies__icon-square" src="./assets/imgs/square.svg" alt="" />
+            <img class="companies__icon-squarespace" src="./assets/imgs/squarespace.svg" alt="" />
+            <img class="companies__icon-clover" src="./assets/imgs/clover.svg" alt="" />
+          </section>
         </div>
       </main>
     </div>
+
+    <footer class="footer container">
+      <div class="footer__top">
+        <a class="footer__logo-link" href="#">
+          <img class="footer__logo" src="./assets/imgs/logo.svg" alt="logo budss" />
+        </a>
+        <ul class="footer__top-link-list">
+          <li>
+            <a href="#">For Business</a>
+          </li>
+          <li>
+            <a href="#">For Customers</a>
+          </li>
+
+          <li class="footer__top-link-mobile">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li class="footer__top-link-mobile">
+            <a href="#">Terms Of Use - Seller</a>
+          </li>
+          <li class="footer__top-link-mobile">
+            <a href="#">Terms of Use - Sellers & Customers</a>
+          </li>
+        </ul>
+        <div class="footer__with-btn">
+          <button class="btn">Contact sales</button>
+          <div class="footer__store-links">
+            <a href="#" class="footer__store-link">
+              <img src="./assets/imgs/googleplay.png" alt="google play" class="footer__store-img" />
+            </a>
+            <a href="#" class="footer__store-link">
+              <img src="./assets/imgs/appstore.png" alt="app store" class="footer__store-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© Copyright 2023, All Rights Reserved by Budss</p>
+        <ul class="footer__bottom-links-list">
+          <li class="footer__bottom-link-item">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li class="footer__bottom-link-item">
+            <a href="#">Terms Of Use - Seller</a>
+          </li>
+          <li class="footer__bottom-link-item">
+            <a href="#">Terms of Use - Sellers & Customers</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

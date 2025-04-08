@@ -5,6 +5,7 @@
   --grayscale-0: #000000;
   --grayscale-1: #181818;
   --grayscale-2: #444444;
+  --grayscale-3: #b9b9b9;
   --grayscale-4: #cfcfcf;
   --grayscale-6: #f5f5f5;
   --grayscale-7: #ffffff;
@@ -20,11 +21,13 @@
   /* fonts */
   --B1_Medium_16: 500 16px 'Outfit';
   --B2_Regular_16: 400 16px 'Outfit';
+  --B5_Light_14: 300 14px / 140% 'Outfit';
 
   --S1_SemiBold_36: 600 36px 'Outfit';
   --S2_SemiBold_24: 600 24px / 120% 'Outfit';
   --S3_Regular_24: 400 24px / 120% 'Outfit';
   --S4_SemiBold_20: 600 20px 'Outfit';
+  --S5_Medium_20: 500 20px 'Outfit';
   --S6_Regular_20: 400 20px / 120% 'Outfit';
 
   --T1_Bold_128: 700 128px / 106px 'Outfit';

@@ -1,7 +1,7 @@
 .btn {
   position: relative;
   background-color: var(--primary-1);
-  padding: 14px 30px;
+  padding: 14px 28px;
   border-radius: 16px;
   font: var(--S4_SemiBold_20);
   cursor: pointer;
