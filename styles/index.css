@@ -3,7 +3,8 @@
 @import './fonts.css';
 @import './blocks/index.css';
 
-body {
+body,
+html {
   font-family: 'Outfit';
   color: var(--grayscale-7);
   background-color: var(--grayscale-1);

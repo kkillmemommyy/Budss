@@ -369,7 +369,7 @@
     </footer>
 
     <!-- Contact sales modal -->
-    <dialog id="contact-modal" class="contact-modal" role="dialog">
+    <dialog id="contact-modal" class="contact-modal" aria-label="Contact sales">
       <button class="contact-modal__close-btn" aria-label="Close">
         <img class="contact-modal__close-btn-img" src="./assets/imgs/close-btn.svg" alt="" aria-hidden="true" />
       </button>
@@ -379,19 +379,19 @@
           <label class="contact-modal__input-label">
             Name <span class="contact-modal__required">*</span>
             <input name="name" placeholder="Enter name" type="text" class="contact-modal__form-input" />
-            <p class="contact-modal__error-message" hidden>This field is required</p>
+            <span class="contact-modal__error-message" hidden>This field is required</span>
           </label>
 
           <label class="contact-modal__input-label">
             Email <span class="contact-modal__required">*</span>
             <input name="email" placeholder="Enter email" type="text" class="contact-modal__form-input" />
-            <p class="contact-modal__error-message" hidden>This field is required</p>
+            <span class="contact-modal__error-message" hidden>This field is required</span>
           </label>
 
           <label class="contact-modal__input-label">
             Phone number <span class="contact-modal__required">*</span>
             <input name="phoneNumber" placeholder="+ 1 900 000 00 00" type="text" class="contact-modal__form-input" />
-            <p class="contact-modal__error-message" hidden>This field is required</p>
+            <span class="contact-modal__error-message" hidden>This field is required</span>
           </label>
 
           <label class="contact-modal__input-label">
