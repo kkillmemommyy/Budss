@@ -6,6 +6,7 @@
   color: var(--grayscale-1);
   position: relative;
   margin-bottom: 100px;
+  width: 100vw;
 }
 
 .tickers__image-wrap {
