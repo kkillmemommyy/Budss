@@ -30,10 +30,6 @@
   color: var(--grayscale-7);
 }
 
-.business-grow__content button:hover {
-  border-color: var(--grayscale-1);
-}
-
 @media (max-width: 768px) {
   .business-grow {
     padding: 40px 16px;

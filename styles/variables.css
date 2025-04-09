@@ -18,10 +18,16 @@
   --secondary-1: #2fdbbc;
   --secondary-2: #ffaa4c;
 
+  --additional-2: #ec1211;
+
   /* fonts */
   --B1_Medium_16: 500 16px 'Outfit';
   --B2_Regular_16: 400 16px 'Outfit';
+  --B3_Medium_14: 500 14px / 22px 'Outfit';
+  --B4_Regular_14: 400 14px / 22px 'Outfit';
   --B5_Light_14: 300 14px / 140% 'Outfit';
+  --S6_Regular_20: 400 20px / 120% 'Outfit';
+  --B7_Regular_12: 400 12px / 20px 'Outfit';
 
   --S1_SemiBold_36: 600 36px 'Outfit';
   --S2_SemiBold_24: 600 24px / 120% 'Outfit';

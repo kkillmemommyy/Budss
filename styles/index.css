@@ -10,11 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-.page {
-  width: 100%;
-  min-height: 100vh;
-}
-
 .container {
   max-width: var(--desktop-container-width);
   margin-left: auto;
@@ -24,6 +19,10 @@ body {
 .bg-white {
   background-color: var(--grayscale-6);
   color: var(--grayscale-0);
+}
+
+.hidden {
+  display: none;
 }
 
 h2 {

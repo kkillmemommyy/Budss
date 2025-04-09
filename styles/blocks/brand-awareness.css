@@ -59,13 +59,13 @@
 @media (max-width: 768px) {
   .brand-awareness__wrap {
     flex-direction: column;
-    gap: 20px
+    gap: 20px;
   }
 
   .brand-awareness__icons-wrap {
     padding: 0;
   }
-  
+
   .brand-awareness {
     padding: 0 18px 40px 16px;
   }
@@ -81,6 +81,6 @@
 
   .brand-awareness__icons-bottom {
     gap: 120px;
-    padding-left: 92px
+    padding-left: 92px;
   }
 }
