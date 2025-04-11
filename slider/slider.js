@@ -121,7 +121,7 @@ const initSlider = () => {
     });
   };
 
-  const moveDote = (index) => () => {
+  const moveDot = (index) => () => {
     if (currentSlidePointer === index) {
       return;
     }
@@ -146,7 +146,7 @@ const initSlider = () => {
 
   moveLeftBtn.addEventListener('click', moveLeft);
   moveRightBtn.addEventListener('click', moveRight);
-  dots.forEach((dot, index) => dot.addEventListener('click', moveDote(index)));
+  dots.forEach((dot, index) => dot.addEventListener('click', moveDot(index)));
 };
 
 // app
