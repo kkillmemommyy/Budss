@@ -36,7 +36,7 @@ body {
   position: absolute;
   width: 600px;
   height: 300px;
-  transition: all ease 1s;
+  transition: all ease 0.8s;
   left: 0;
   top: 0;
 }
