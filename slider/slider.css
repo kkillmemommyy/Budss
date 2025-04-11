@@ -21,7 +21,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slider__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
+}
+
+.slider__dots {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+
+.slider__dot {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.slider__dot_active {
+  background-color: rgb(77, 77, 77)
+}
+
+.slider__dot:hover {
+  background-color: rgb(77, 77, 77);
 }
 
 .slider__track {
@@ -36,7 +68,6 @@ body {
   position: absolute;
   width: 600px;
   height: 300px;
-  transition: all ease 0.8s;
   left: 0;
   top: 0;
 }
